@@ -3,7 +3,8 @@ from os.path import isfile, join
 
 import re
 
-DIRECTORY_TO_CHANGE = r'Z:\plex_storage\Anime Shows Additional\Kono Bijutsubu ni wa Mondai ga Aru! [TV][720p][ArtClub]'
+DIRECTORY_TO_CHANGE = r'path/to/folder'
+
 chdir(DIRECTORY_TO_CHANGE)
 
 def remove_brackets(filename):
